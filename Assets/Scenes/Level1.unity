@@ -1888,6 +1888,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6219439090834464621, guid: 7eda75637f0a6974ebfd5c076b76b111,
         type: 3}
+      propertyPath: m_text
+      value: Hold the screen and swipe in the direction you want.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219439090834464621, guid: 7eda75637f0a6974ebfd5c076b76b111,
+        type: 3}
       propertyPath: m_fontSize
       value: 100
       objectReference: {fileID: 0}
@@ -1900,6 +1905,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_enableAutoSizing
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219439090874068417, guid: 7eda75637f0a6974ebfd5c076b76b111,
+        type: 3}
+      propertyPath: m_text
+      value: Main Menu
       objectReference: {fileID: 0}
     - target: {fileID: 6219439090874068417, guid: 7eda75637f0a6974ebfd5c076b76b111,
         type: 3}

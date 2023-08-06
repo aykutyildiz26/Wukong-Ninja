@@ -7,12 +7,12 @@ using UnityEngine.SceneManagement;
 
 public class ControlPoint : MonoBehaviour // Attached to "Control Point" named Game Object.
 {
-    [Header("UI Ayarlama kýsmý")]
+    [Header("UI Options")]
     public TextMeshProUGUI timeCounterText,failureText,shurikenIconTurnText,startUpMessage;
     public GameObject pausePanel,energyIcon,emptyEnergyIcon,shurikenIcon;
 
 
-    [Header("Unity ayarlama kýsmý.")]
+    [Header("Unity Options.")]
     //float pointer_x = Input.GetAxis("Mouse X");
     //float pointer_y = Input.GetAxis("Mouse Y");
     private float xRot, yRot, timeCounter = 0f;
@@ -60,7 +60,7 @@ public class ControlPoint : MonoBehaviour // Attached to "Control Point" named G
             energyIcon.SetActive(false);
             emptyEnergyIcon.SetActive(false);
             shurikenIcon.SetActive(false);
-            failureText.text = "Tekrar Dene";
+            failureText.text = "Try Again";
             Time.timeScale = 1;
             pausePanel.gameObject.SetActive(true);
         }
@@ -184,7 +184,7 @@ public class ControlPoint : MonoBehaviour // Attached to "Control Point" named G
         
         ninjaControlScript.thisGuysAnimator.SetBool("isGameWin", true);
         ninjaControlScript.thisGuysRigidbody.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
-        failureText.text = "Baþarýlý";
+        failureText.text = "Success!";
         failureText.color = Color.green;
         Time.timeScale = 1;
         pausePanel.gameObject.SetActive(true);

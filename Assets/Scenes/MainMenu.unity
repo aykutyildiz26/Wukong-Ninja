@@ -294,8 +294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.21843643, y: 0.41921055}
   m_AnchorMax: {x: 0.84924996, y: 0.51121056}
-  m_AnchoredPosition: {x: -80.275024, y: 1.5704956}
-  m_SizeDelta: {x: 148.73999, y: -28.0177}
+  m_AnchoredPosition: {x: -80.275024, y: -20.847717}
+  m_SizeDelta: {x: 318.8979, y: 16.8185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &112602239
 MonoBehaviour:
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: oyna
+  m_text: play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: df628b6f32dd2c041a213b6cee12ba83, type: 2}
   m_sharedMaterial: {fileID: 7581598498461231818, guid: df628b6f32dd2c041a213b6cee12ba83,
@@ -764,7 +764,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bolum Sec
+  m_text: Choose chpapter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: df628b6f32dd2c041a213b6cee12ba83, type: 2}
   m_sharedMaterial: {fileID: 7581598498461231818, guid: df628b6f32dd2c041a213b6cee12ba83,
